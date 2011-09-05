@@ -1,6 +1,6 @@
 === nilay test ===
 Contributors: jovelstefan
-Donate link: http://www.jovelstefan.de/embedded-video/
+Donate link: http://www.pathikgandhi.info/
 Tags: embedding, video, embed, portal, youtube, sevenload, google, myvideo, clipfish, revver, yahoo, metacafe, ifilm, myspace, brightcove, aniboom, guba, dailymotion, vimeo, garage, garage tv, gamevideos, flash, vsocial, editor, plugin, wysiwyg, post, veoh
 Requires at least: 2.5
 Tested up to: 2.6
@@ -11,7 +11,7 @@ Easy embedding of videos from lots of portals or local video files of many file 
 == Description ==
 
 CAUTION! The newest version of this plugin is not compatible with WP versions before 2.5! But if you use an older version, you can at least use version 3.4 of this plugin.
-CAUTION! If you use the automatic plugin update of wordpress when migrating from version 4.0 to a newer one, you have to activate manually as directory structure changed. Delete the folder "embedded-video" in your plugins folder afterwards, only "embedded-video-with-link" is still valid!
+CAUTION! If you use the automatic plugin update of wordpress when migrating from version 4.0 to a newer one, you have to activate manually as directory structure changed. Delete the folder "testnilay" in your plugins folder afterwards, only "embedded-video-with-link" is still valid!
 
 Please rate this plugin! Please donate!
 

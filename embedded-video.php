@@ -1,8 +1,8 @@
 <?php
 
 /*
-Plugin Name: Embedded Video
-Plugin URI: http://www.jovelstefan.de/embedded-video/
+Plugin Name: Test NIlay
+Plugin URI: http://www.pathikgandhi.info/
 Description: Easy embedding of videos from various portals or local video files with corresponding link. <a href="options-general.php?page=embeddedvideo_options_page">Configure...</a>
 Version: 4.1
 License: GPL
