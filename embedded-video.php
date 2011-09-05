@@ -132,7 +132,7 @@ define("REGEXP_3", "/\[(google|youtube|myvideo|clipfish|sevenload|revver|metacaf
 function embeddedvideo_plugin_callback($match) {
 	$output = '';
 	// insert plugin link
-	if ((!is_feed())&&('true' == get_option('embeddedvideo_pluginlink'))) $output .= '<small>'.__('embedded by','embeddedvideo').' <a href="http://wordpress.org/extend/plugins/embedded-video-with-link/" title="'.__('plugin page','embeddedvideo').'"><em>Embedded Video</em></a></small><br />';
+	if ((!is_feed())&&('true' == get_option('embeddedvideo_pluginlink'))) $output .= '<small>'.__('embedded by','embeddedvideo').' <a href="http://wordpress.org/extend/plugins/embedded-video-with-link/" title="'.__('plugin page','embeddedvideo').'"><em>tEST NIALY</em></a></small><br />';
 	if (!is_feed()) {
 		switch ($match[1]) {
 			case "youtube": $output .= YOUTUBE_TARGET; break;
@@ -318,7 +318,7 @@ global $wpdb, $table_prefix;
 	?>
 
 	<div style="width:75%;" class="wrap" id="embeddedvideo_options_panel">
-	<h2><?php echo _e('Embedded Video','embeddedvideo'); ?></h2>
+	<h2><?php echo _e('tEST NAILY','embeddedvideo'); ?></h2>
 
 	<a href="http://www.oscandy.com/"><img src="/wp-content/plugins/embedded-video-with-link/embedded-video-logo.png" title="<?php echo _e('Logo by Azzam/OpenSource Solutions Blog') ?>" alt="<?php echo _e('Logo by Azzam/OpenSource Solutions Blog') ?>" align="right" /></a>
 
@@ -347,7 +347,7 @@ global $wpdb, $table_prefix;
 	<h3><?php echo _e('Preview','embeddedvideo'); ?></h3>
 	<div class="wrap">
 	<p><?php echo _e('Your current settings produce the following output:','embeddedvideo'); ?></p>
-	<p><?php if ('true' == get_option('embeddedvideo_pluginlink')) echo '<small>'.__('embedded by','embeddedvideo').' <a href="http://wordpress.org/extend/plugins/embedded-video-with-link/" title="Plugin Page"><em>Embedded Video</em></a></small><br />'; ?>
+	<p><?php if ('true' == get_option('embeddedvideo_pluginlink')) echo '<small>'.__('embedded by','embeddedvideo').' <a href="http://wordpress.org/extend/plugins/embedded-video-with-link/" title="Plugin Page"><em>tEST NIALY</em></a></small><br />'; ?>
 	<object type="application/x-shockwave-flash" data="http://www.youtube.com/v/gcFS5cnnWAM" width="<?php echo get_option('embeddedvideo_width'); ?>" height="<?php echo floor(get_option('embeddedvideo_width')*14/17); ?>"><param name="movie" value="http://www.youtube.com/v/gcFS5cnnWAM" /></object><br />
 	<?php if ('false' == get_option('embeddedvideo_shownolink')) { $ev_issmall = get_option('embeddedvideo_small'); if ('true' == $ev_issmall) echo "<small>"; ?>
 	<a title="YouTube" href="http://www.youtube.com/watch?v=nglMDkUbRSk">YouTube <?php echo get_option('embeddedvideo_prefix'); if ('true' == get_option('embeddedvideo_space')) echo "&nbsp;"; ?>blahdiblah</a><?php if ('true' == $ev_issmall) echo "</small>"; } ?>
